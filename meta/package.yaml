@@ -1,0 +1,8 @@
+name: capes.erle
+vendor: Erle Robotics <contact@erlerobot.com>
+icon: meta/erle-small.png
+version: 1.0
+architecture: armhf
+binaries:
+ - name: src/load-capes.sh
+maintainer: Víctor Mayoral <victor@erlerobot.com>

@@ -1,0 +1,10 @@
+[Unit]
+Description=Erle-Brain cape and setup service
+After=cloud-final.service
+
+[Service]
+#Type=oneshot
+ExecStart=/apps/capes.erle/current/src/load-capes.sh
+
+[Install]
+WantedBy=multi-user.target
